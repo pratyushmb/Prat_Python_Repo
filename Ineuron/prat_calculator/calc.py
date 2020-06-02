@@ -66,6 +66,6 @@ def math_operation_via_postman():
         return jsonify(result_val)
 
 if __name__ == '__main__':  # executing Flask app
-    print("my app is running..")
+    print("my app is perfectly running..")
     calc.run()
 
