@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52bc61e7693c4e999f1732ff646ddbc6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_52bc61e7693c4e999f1732ff646ddbc6" ></div>
+        
+</body>
+<script>    
+    
+            var map_52bc61e7693c4e999f1732ff646ddbc6 = L.map(
+                "map_52bc61e7693c4e999f1732ff646ddbc6",
+                {
+                    center: [35.96723, -86.82608],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73a8051667f241a2b3f3943578b5fe66 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var marker_c8d498462d4f4fb99899cdee9b509851 = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_85e2cfe5d0804dbc914ba90d510cdaf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8d498462d4f4fb99899cdee9b509851.setIcon(icon_85e2cfe5d0804dbc914ba90d510cdaf1);
+        
+    
+        var popup_4448b725e07347a0b5b9109346771ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec7b6a8428c64073b9fdbc8fd9697285 = $(`<div id="html_ec7b6a8428c64073b9fdbc8fd9697285" style="width: 100.0%; height: 100.0%;">Baker</div>`)[0];
+            popup_4448b725e07347a0b5b9109346771ae8.setContent(html_ec7b6a8428c64073b9fdbc8fd9697285);
+        
+
+        marker_c8d498462d4f4fb99899cdee9b509851.bindPopup(popup_4448b725e07347a0b5b9109346771ae8)
+        ;
+
+        
+    
+    
+            var marker_21dff943c3a547a1a30bf367fde0475e = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_a3be5740679b4d6c9832fea9cbf172b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_21dff943c3a547a1a30bf367fde0475e.setIcon(icon_a3be5740679b4d6c9832fea9cbf172b6);
+        
+    
+        var popup_c963f85577e8425081efd3a2dcb404f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d48e0fe3323446a9871406354b745935 = $(`<div id="html_d48e0fe3323446a9871406354b745935" style="width: 100.0%; height: 100.0%;">Glacier Peak</div>`)[0];
+            popup_c963f85577e8425081efd3a2dcb404f5.setContent(html_d48e0fe3323446a9871406354b745935);
+        
+
+        marker_21dff943c3a547a1a30bf367fde0475e.bindPopup(popup_c963f85577e8425081efd3a2dcb404f5)
+        ;
+
+        
+    
+    
+            var marker_15521e0f0a6d4b9b87e50a8c28abfea1 = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_802646adaa0b40d88bf6c52b8a68a949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15521e0f0a6d4b9b87e50a8c28abfea1.setIcon(icon_802646adaa0b40d88bf6c52b8a68a949);
+        
+    
+        var popup_957a0af2498d4635b43dbde7ed854abc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98c9688e35844252a96cd5dad583288e = $(`<div id="html_98c9688e35844252a96cd5dad583288e" style="width: 100.0%; height: 100.0%;">Rainier</div>`)[0];
+            popup_957a0af2498d4635b43dbde7ed854abc.setContent(html_98c9688e35844252a96cd5dad583288e);
+        
+
+        marker_15521e0f0a6d4b9b87e50a8c28abfea1.bindPopup(popup_957a0af2498d4635b43dbde7ed854abc)
+        ;
+
+        
+    
+    
+            var marker_105c52441b7146f18bc1b811279a91c4 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_5a8db53f9c9e439c96a65e036a360ec1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_105c52441b7146f18bc1b811279a91c4.setIcon(icon_5a8db53f9c9e439c96a65e036a360ec1);
+        
+    
+        var popup_fcd6b20f87d344a19761784f7e837d8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aa17485034a4bbda1869cb1ca14f8bb = $(`<div id="html_7aa17485034a4bbda1869cb1ca14f8bb" style="width: 100.0%; height: 100.0%;">St. Helens</div>`)[0];
+            popup_fcd6b20f87d344a19761784f7e837d8d.setContent(html_7aa17485034a4bbda1869cb1ca14f8bb);
+        
+
+        marker_105c52441b7146f18bc1b811279a91c4.bindPopup(popup_fcd6b20f87d344a19761784f7e837d8d)
+        ;
+
+        
+    
+    
+            var marker_bc2c05a1eb7a411486dbbbfce7f830b7 = L.marker(
+                [46.20579910000001, -121.4909973],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_dfd499c0aa174e47ba9ac0fdbafa1c7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc2c05a1eb7a411486dbbbfce7f830b7.setIcon(icon_dfd499c0aa174e47ba9ac0fdbafa1c7e);
+        
+    
+        var popup_ed8b70bfba854d1ca965e458c146918a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbf5308be5924f058f29356e8dc0cf2e = $(`<div id="html_dbf5308be5924f058f29356e8dc0cf2e" style="width: 100.0%; height: 100.0%;">Adams</div>`)[0];
+            popup_ed8b70bfba854d1ca965e458c146918a.setContent(html_dbf5308be5924f058f29356e8dc0cf2e);
+        
+
+        marker_bc2c05a1eb7a411486dbbbfce7f830b7.bindPopup(popup_ed8b70bfba854d1ca965e458c146918a)
+        ;
+
+        
+    
+    
+            var marker_a7242b31a5a54a309fcfa296b73ff695 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_bfa3b560dbfd4be58d0c0933bf6add38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a7242b31a5a54a309fcfa296b73ff695.setIcon(icon_bfa3b560dbfd4be58d0c0933bf6add38);
+        
+    
+        var popup_83c0e89a8f8f47b89315ce92d9e397dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea25ff105fc74032bddaa229350d0d0e = $(`<div id="html_ea25ff105fc74032bddaa229350d0d0e" style="width: 100.0%; height: 100.0%;">West Crater</div>`)[0];
+            popup_83c0e89a8f8f47b89315ce92d9e397dd.setContent(html_ea25ff105fc74032bddaa229350d0d0e);
+        
+
+        marker_a7242b31a5a54a309fcfa296b73ff695.bindPopup(popup_83c0e89a8f8f47b89315ce92d9e397dd)
+        ;
+
+        
+    
+    
+            var marker_94ed7a55d8834447869419a3891f67df = L.marker(
+                [45.929798100000006, -121.8209991],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_28145311c84f415ab8949f8a9fba4ede = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_94ed7a55d8834447869419a3891f67df.setIcon(icon_28145311c84f415ab8949f8a9fba4ede);
+        
+    
+        var popup_a0eaece2352b498a95cdc504cd0ec3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a35b6440f154e249b8d9352b27ac662 = $(`<div id="html_9a35b6440f154e249b8d9352b27ac662" style="width: 100.0%; height: 100.0%;">Indian Heaven</div>`)[0];
+            popup_a0eaece2352b498a95cdc504cd0ec3f6.setContent(html_9a35b6440f154e249b8d9352b27ac662);
+        
+
+        marker_94ed7a55d8834447869419a3891f67df.bindPopup(popup_a0eaece2352b498a95cdc504cd0ec3f6)
+        ;
+
+        
+    
+    
+            var marker_3215a36bdf484a13920e6988de817e8f = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_b49cddb6a8d34571bd0efc87ff94e679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3215a36bdf484a13920e6988de817e8f.setIcon(icon_b49cddb6a8d34571bd0efc87ff94e679);
+        
+    
+        var popup_9e73c537452a4bc7acf69ab9fe1d2d5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15184cf8ef55481e9d04cb8086ab99fc = $(`<div id="html_15184cf8ef55481e9d04cb8086ab99fc" style="width: 100.0%; height: 100.0%;">Hood</div>`)[0];
+            popup_9e73c537452a4bc7acf69ab9fe1d2d5d.setContent(html_15184cf8ef55481e9d04cb8086ab99fc);
+        
+
+        marker_3215a36bdf484a13920e6988de817e8f.bindPopup(popup_9e73c537452a4bc7acf69ab9fe1d2d5d)
+        ;
+
+        
+    
+    
+            var marker_31fb7733c9f1499f9177419d3efa1b18 = L.marker(
+                [44.691799200000005, -121.8010025],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_2ffef68f024149ea9ea996472f069e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31fb7733c9f1499f9177419d3efa1b18.setIcon(icon_2ffef68f024149ea9ea996472f069e15);
+        
+    
+        var popup_af7bda9359894613a3d2e1207b2a03b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fa37b6a5a3d48a98f017d54564e1fe7 = $(`<div id="html_3fa37b6a5a3d48a98f017d54564e1fe7" style="width: 100.0%; height: 100.0%;">Jefferson</div>`)[0];
+            popup_af7bda9359894613a3d2e1207b2a03b0.setContent(html_3fa37b6a5a3d48a98f017d54564e1fe7);
+        
+
+        marker_31fb7733c9f1499f9177419d3efa1b18.bindPopup(popup_af7bda9359894613a3d2e1207b2a03b0)
+        ;
+
+        
+    
+    
+            var marker_f2879a667e1049138cff8766c664dbdc = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_763cec51ec91423cbaf8904bedf185db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f2879a667e1049138cff8766c664dbdc.setIcon(icon_763cec51ec91423cbaf8904bedf185db);
+        
+    
+        var popup_f343f0a12cd34926815ab13a047c8820 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_415391431a9546c99e6b09ed785ba490 = $(`<div id="html_415391431a9546c99e6b09ed785ba490" style="width: 100.0%; height: 100.0%;">Blue Lake Crater</div>`)[0];
+            popup_f343f0a12cd34926815ab13a047c8820.setContent(html_415391431a9546c99e6b09ed785ba490);
+        
+
+        marker_f2879a667e1049138cff8766c664dbdc.bindPopup(popup_f343f0a12cd34926815ab13a047c8820)
+        ;
+
+        
+    
+    
+            var marker_7acffefd7076486993fba3eda7d0e5a5 = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_4d40a42b8a7b46a08d1b70cd91454902 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7acffefd7076486993fba3eda7d0e5a5.setIcon(icon_4d40a42b8a7b46a08d1b70cd91454902);
+        
+    
+        var popup_a4e193eb4b2745abaf2e0e05e5e5c6e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_290f9a211ed6484babd2554588d40fe6 = $(`<div id="html_290f9a211ed6484babd2554588d40fe6" style="width: 100.0%; height: 100.0%;">Sand Mountain Field</div>`)[0];
+            popup_a4e193eb4b2745abaf2e0e05e5e5c6e5.setContent(html_290f9a211ed6484babd2554588d40fe6);
+        
+
+        marker_7acffefd7076486993fba3eda7d0e5a5.bindPopup(popup_a4e193eb4b2745abaf2e0e05e5e5c6e5)
+        ;
+
+        
+    
+    
+            var marker_3aca19c480ba45a4a5e51b40059a17cc = L.marker(
+                [44.331798600000006, -121.8310013],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_6300f0d6017f4148905f130b3df45b2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3aca19c480ba45a4a5e51b40059a17cc.setIcon(icon_6300f0d6017f4148905f130b3df45b2e);
+        
+    
+        var popup_f620afa28f504667bbfe8f180b15615e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf70f8d0f1247e9bb9fdb48ae058838 = $(`<div id="html_2bf70f8d0f1247e9bb9fdb48ae058838" style="width: 100.0%; height: 100.0%;">Washington</div>`)[0];
+            popup_f620afa28f504667bbfe8f180b15615e.setContent(html_2bf70f8d0f1247e9bb9fdb48ae058838);
+        
+
+        marker_3aca19c480ba45a4a5e51b40059a17cc.bindPopup(popup_f620afa28f504667bbfe8f180b15615e)
+        ;
+
+        
+    
+    
+            var marker_93cd062fcff74c4caca8d257f4df783e = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_7e2fa41bf85745c285d74ff8e24a4312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93cd062fcff74c4caca8d257f4df783e.setIcon(icon_7e2fa41bf85745c285d74ff8e24a4312);
+        
+    
+        var popup_a8763344f6cd4f7e808738d3eeaaab74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cad7cb7a1b544d638027486f5df208a3 = $(`<div id="html_cad7cb7a1b544d638027486f5df208a3" style="width: 100.0%; height: 100.0%;">Belknap</div>`)[0];
+            popup_a8763344f6cd4f7e808738d3eeaaab74.setContent(html_cad7cb7a1b544d638027486f5df208a3);
+        
+
+        marker_93cd062fcff74c4caca8d257f4df783e.bindPopup(popup_a8763344f6cd4f7e808738d3eeaaab74)
+        ;
+
+        
+    
+    
+            var marker_5f712f6b04f8404a98ffed9270b3596f = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_e25d787e30584fceaaab04df1c3de1e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5f712f6b04f8404a98ffed9270b3596f.setIcon(icon_e25d787e30584fceaaab04df1c3de1e8);
+        
+    
+        var popup_d8e9c14a51a744d9a62af510616fe9b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84acb76ec1d546aa8b335abcaaec782f = $(`<div id="html_84acb76ec1d546aa8b335abcaaec782f" style="width: 100.0%; height: 100.0%;">North Sister Field</div>`)[0];
+            popup_d8e9c14a51a744d9a62af510616fe9b1.setContent(html_84acb76ec1d546aa8b335abcaaec782f);
+        
+
+        marker_5f712f6b04f8404a98ffed9270b3596f.bindPopup(popup_d8e9c14a51a744d9a62af510616fe9b1)
+        ;
+
+        
+    
+    
+            var marker_e2b2569ecbcd4412ab33657e57281a56 = L.marker(
+                [44.099800099999996, -121.7710037],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_05c390887bd740bbadd60132f6af2db6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e2b2569ecbcd4412ab33657e57281a56.setIcon(icon_05c390887bd740bbadd60132f6af2db6);
+        
+    
+        var popup_740a5c7dc0364edf924b37167b3f199d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5406389d28e04db9ad7f9fe5fcda4c99 = $(`<div id="html_5406389d28e04db9ad7f9fe5fcda4c99" style="width: 100.0%; height: 100.0%;">South Sister</div>`)[0];
+            popup_740a5c7dc0364edf924b37167b3f199d.setContent(html_5406389d28e04db9ad7f9fe5fcda4c99);
+        
+
+        marker_e2b2569ecbcd4412ab33657e57281a56.bindPopup(popup_740a5c7dc0364edf924b37167b3f199d)
+        ;
+
+        
+    
+    
+            var marker_531036d058dd4e3da96e9e55e246a481 = L.marker(
+                [43.978801700000005, -121.6809998],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_b39ed62087854bb593b78a8bc63c4ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_531036d058dd4e3da96e9e55e246a481.setIcon(icon_b39ed62087854bb593b78a8bc63c4ae3);
+        
+    
+        var popup_a8c236d4dc884609a78106a469776c1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43b4b236e19b4644a9e7659d78714137 = $(`<div id="html_43b4b236e19b4644a9e7659d78714137" style="width: 100.0%; height: 100.0%;">Bachelor</div>`)[0];
+            popup_a8c236d4dc884609a78106a469776c1b.setContent(html_43b4b236e19b4644a9e7659d78714137);
+        
+
+        marker_531036d058dd4e3da96e9e55e246a481.bindPopup(popup_a8c236d4dc884609a78106a469776c1b)
+        ;
+
+        
+    
+    
+            var marker_9ee82153458f4b8295d36b079b54998d = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_a8813ed25df44f7da8068a867b9ebee8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ee82153458f4b8295d36b079b54998d.setIcon(icon_a8813ed25df44f7da8068a867b9ebee8);
+        
+    
+        var popup_4c598d521af049069948e15851335e0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff18c80344744ad3b38454bacc455b57 = $(`<div id="html_ff18c80344744ad3b38454bacc455b57" style="width: 100.0%; height: 100.0%;">Newberry Volcano</div>`)[0];
+            popup_4c598d521af049069948e15851335e0a.setContent(html_ff18c80344744ad3b38454bacc455b57);
+        
+
+        marker_9ee82153458f4b8295d36b079b54998d.bindPopup(popup_4c598d521af049069948e15851335e0a)
+        ;
+
+        
+    
+    
+            var marker_ecaaaa7d570e4c7983f6b56d1c152d6c = L.marker(
+                [43.569801299999995, -121.8209991],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_8f8487d1014f465d82bb10862b0d4cc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ecaaaa7d570e4c7983f6b56d1c152d6c.setIcon(icon_8f8487d1014f465d82bb10862b0d4cc0);
+        
+    
+        var popup_14fb06d79cca4a4d80ba53e774d6aaec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e8a517aa55c496284f0aa637c5c830a = $(`<div id="html_4e8a517aa55c496284f0aa637c5c830a" style="width: 100.0%; height: 100.0%;">Davis Lake</div>`)[0];
+            popup_14fb06d79cca4a4d80ba53e774d6aaec.setContent(html_4e8a517aa55c496284f0aa637c5c830a);
+        
+
+        marker_ecaaaa7d570e4c7983f6b56d1c152d6c.bindPopup(popup_14fb06d79cca4a4d80ba53e774d6aaec)
+        ;
+
+        
+    
+    
+            var marker_9db0e543c7b44b9698c7a83c9380e734 = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_cd192b3d80974cce92f4bab44face887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9db0e543c7b44b9698c7a83c9380e734.setIcon(icon_cd192b3d80974cce92f4bab44face887);
+        
+    
+        var popup_37ca88b6c3f14539a354e709b6ca9dc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d6cbb971a0f459bb3c2edf16a1b1c8c = $(`<div id="html_9d6cbb971a0f459bb3c2edf16a1b1c8c" style="width: 100.0%; height: 100.0%;">Devils Garden</div>`)[0];
+            popup_37ca88b6c3f14539a354e709b6ca9dc5.setContent(html_9d6cbb971a0f459bb3c2edf16a1b1c8c);
+        
+
+        marker_9db0e543c7b44b9698c7a83c9380e734.bindPopup(popup_37ca88b6c3f14539a354e709b6ca9dc5)
+        ;
+
+        
+    
+    
+            var marker_8e8d5144dec3407b85553ce7dd985a3c = L.marker(
+                [43.240798999999996, -122.10099790000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_c6bbbae3d1ff4f70912535d1640b34d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8e8d5144dec3407b85553ce7dd985a3c.setIcon(icon_c6bbbae3d1ff4f70912535d1640b34d2);
+        
+    
+        var popup_2e4199428af94e53b4a4258216893997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1330053a2d6a4ee6a7c396d5d1f14169 = $(`<div id="html_1330053a2d6a4ee6a7c396d5d1f14169" style="width: 100.0%; height: 100.0%;">Cinnamon Butte</div>`)[0];
+            popup_2e4199428af94e53b4a4258216893997.setContent(html_1330053a2d6a4ee6a7c396d5d1f14169);
+        
+
+        marker_8e8d5144dec3407b85553ce7dd985a3c.bindPopup(popup_2e4199428af94e53b4a4258216893997)
+        ;
+
+        
+    
+    
+            var marker_65fec435531d4c189b200b96f6c0a9bc = L.marker(
+                [43.471900899999994, -120.7509995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_dac29d5ef0ff46d1aea493099a4e7583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65fec435531d4c189b200b96f6c0a9bc.setIcon(icon_dac29d5ef0ff46d1aea493099a4e7583);
+        
+    
+        var popup_0cdf42daf96b408f93691ce5dc6f4359 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12002ecb05b74407ab3fb6a602666fb0 = $(`<div id="html_12002ecb05b74407ab3fb6a602666fb0" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field</div>`)[0];
+            popup_0cdf42daf96b408f93691ce5dc6f4359.setContent(html_12002ecb05b74407ab3fb6a602666fb0);
+        
+
+        marker_65fec435531d4c189b200b96f6c0a9bc.bindPopup(popup_0cdf42daf96b408f93691ce5dc6f4359)
+        ;
+
+        
+    
+    
+            var marker_cb56bac5a24d4fa7ae81ef350a5a15ca = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_1914cb9ea4824f2f8b5a3ef5d431643a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cb56bac5a24d4fa7ae81ef350a5a15ca.setIcon(icon_1914cb9ea4824f2f8b5a3ef5d431643a);
+        
+    
+        var popup_5fb0a47a02bd47558a0ad7d63e8097aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5a62ed3b9fa4a99bc7d8024af1448dc = $(`<div id="html_c5a62ed3b9fa4a99bc7d8024af1448dc" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field</div>`)[0];
+            popup_5fb0a47a02bd47558a0ad7d63e8097aa.setContent(html_c5a62ed3b9fa4a99bc7d8024af1448dc);
+        
+
+        marker_cb56bac5a24d4fa7ae81ef350a5a15ca.bindPopup(popup_5fb0a47a02bd47558a0ad7d63e8097aa)
+        ;
+
+        
+    
+    
+            var marker_7fae29204391494dba1a8802218831a9 = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_6b9c6bc8fd4b472cab21863a12c9c99c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7fae29204391494dba1a8802218831a9.setIcon(icon_6b9c6bc8fd4b472cab21863a12c9c99c);
+        
+    
+        var popup_3f893dd7cc294699b01c522ad05c0fa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ce3c0f9178f4842bc8da5927963f9db = $(`<div id="html_4ce3c0f9178f4842bc8da5927963f9db" style="width: 100.0%; height: 100.0%;">Crater Lake</div>`)[0];
+            popup_3f893dd7cc294699b01c522ad05c0fa7.setContent(html_4ce3c0f9178f4842bc8da5927963f9db);
+        
+
+        marker_7fae29204391494dba1a8802218831a9.bindPopup(popup_3f893dd7cc294699b01c522ad05c0fa7)
+        ;
+
+        
+    
+    
+            var marker_5ec90945571647588640ceb4e76f1ff6 = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_9c22d6b91d714be081a3248aa64e430e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ec90945571647588640ceb4e76f1ff6.setIcon(icon_9c22d6b91d714be081a3248aa64e430e);
+        
+    
+        var popup_0b7b9180589a473f895ca0435eb9f066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_663d52eb32c84aceacaa05a9f72b58a4 = $(`<div id="html_663d52eb32c84aceacaa05a9f72b58a4" style="width: 100.0%; height: 100.0%;">Yellowstone</div>`)[0];
+            popup_0b7b9180589a473f895ca0435eb9f066.setContent(html_663d52eb32c84aceacaa05a9f72b58a4);
+        
+
+        marker_5ec90945571647588640ceb4e76f1ff6.bindPopup(popup_0b7b9180589a473f895ca0435eb9f066)
+        ;
+
+        
+    
+    
+            var marker_f74bfd1ab8f94ad897ebdd548f3e0c46 = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_e3869bd12e0340799e0a7de901608d24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f74bfd1ab8f94ad897ebdd548f3e0c46.setIcon(icon_e3869bd12e0340799e0a7de901608d24);
+        
+    
+        var popup_27ae47591438406bbc6b5b73b3e2b3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_972978bff9134c128575b0d26f841185 = $(`<div id="html_972978bff9134c128575b0d26f841185" style="width: 100.0%; height: 100.0%;">Diamond Craters</div>`)[0];
+            popup_27ae47591438406bbc6b5b73b3e2b3e5.setContent(html_972978bff9134c128575b0d26f841185);
+        
+
+        marker_f74bfd1ab8f94ad897ebdd548f3e0c46.bindPopup(popup_27ae47591438406bbc6b5b73b3e2b3e5)
+        ;
+
+        
+    
+    
+            var marker_e6e23d0ad7984360942b06cc8359e8c6 = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_fddbdd7ed81d43ef8e0c2ef7adc63396 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e6e23d0ad7984360942b06cc8359e8c6.setIcon(icon_fddbdd7ed81d43ef8e0c2ef7adc63396);
+        
+    
+        var popup_8628a81a5dd944db8e2818ef7879c6e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3556f0b6d2964d09828a9091d2976a9f = $(`<div id="html_3556f0b6d2964d09828a9091d2976a9f" style="width: 100.0%; height: 100.0%;">Jordan Craters</div>`)[0];
+            popup_8628a81a5dd944db8e2818ef7879c6e9.setContent(html_3556f0b6d2964d09828a9091d2976a9f);
+        
+
+        marker_e6e23d0ad7984360942b06cc8359e8c6.bindPopup(popup_8628a81a5dd944db8e2818ef7879c6e9)
+        ;
+
+        
+    
+    
+            var marker_5c443ff6773243208f4bc63662ec086b = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_b8e0175f74f748b4ba7e5319657fb849 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5c443ff6773243208f4bc63662ec086b.setIcon(icon_b8e0175f74f748b4ba7e5319657fb849);
+        
+    
+        var popup_6ddc21cad80d4b50b5bb5a31d6d0e7b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52df64654cc740a5a1538303e717d0f0 = $(`<div id="html_52df64654cc740a5a1538303e717d0f0" style="width: 100.0%; height: 100.0%;">Saddle Butte</div>`)[0];
+            popup_6ddc21cad80d4b50b5bb5a31d6d0e7b3.setContent(html_52df64654cc740a5a1538303e717d0f0);
+        
+
+        marker_5c443ff6773243208f4bc63662ec086b.bindPopup(popup_6ddc21cad80d4b50b5bb5a31d6d0e7b3)
+        ;
+
+        
+    
+    
+            var marker_a7f7a8d6c8ec46ba8ab7f3b961fc2c3c = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_c01a43ac60464c768c574119adefd980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7f7a8d6c8ec46ba8ab7f3b961fc2c3c.setIcon(icon_c01a43ac60464c768c574119adefd980);
+        
+    
+        var popup_4a57895386a7484eb008fe21b53d9b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4475e7f1f824df68ee7162daf9d152e = $(`<div id="html_a4475e7f1f824df68ee7162daf9d152e" style="width: 100.0%; height: 100.0%;">Craters of the Moon</div>`)[0];
+            popup_4a57895386a7484eb008fe21b53d9b7d.setContent(html_a4475e7f1f824df68ee7162daf9d152e);
+        
+
+        marker_a7f7a8d6c8ec46ba8ab7f3b961fc2c3c.bindPopup(popup_4a57895386a7484eb008fe21b53d9b7d)
+        ;
+
+        
+    
+    
+            var marker_24d4e83a49e34acc8442e4043cd2fdbd = L.marker(
+                [43.4999008, -112.45099640000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_82812901d0d541fbbe3bd574d5343377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_24d4e83a49e34acc8442e4043cd2fdbd.setIcon(icon_82812901d0d541fbbe3bd574d5343377);
+        
+    
+        var popup_957a7e7c353c4bf0917c647114a4e7ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18967ea2812844a9b5719219c3a049e9 = $(`<div id="html_18967ea2812844a9b5719219c3a049e9" style="width: 100.0%; height: 100.0%;">Hell's Half Acre</div>`)[0];
+            popup_957a7e7c353c4bf0917c647114a4e7ee.setContent(html_18967ea2812844a9b5719219c3a049e9);
+        
+
+        marker_24d4e83a49e34acc8442e4043cd2fdbd.bindPopup(popup_957a7e7c353c4bf0917c647114a4e7ee)
+        ;
+
+        
+    
+    
+            var marker_fc3a0c826e8e48dd9f2b0797ee75bd67 = L.marker(
+                [43.1799011, -114.35099790000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_fe5f1b11b3d74715948660657a62c612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fc3a0c826e8e48dd9f2b0797ee75bd67.setIcon(icon_fe5f1b11b3d74715948660657a62c612);
+        
+    
+        var popup_cbaee299a2c549259c44f63dfd83f0ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37441ccc0bcd4ec1b6317c2c32939a8c = $(`<div id="html_37441ccc0bcd4ec1b6317c2c32939a8c" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field</div>`)[0];
+            popup_cbaee299a2c549259c44f63dfd83f0ff.setContent(html_37441ccc0bcd4ec1b6317c2c32939a8c);
+        
+
+        marker_fc3a0c826e8e48dd9f2b0797ee75bd67.bindPopup(popup_cbaee299a2c549259c44f63dfd83f0ff)
+        ;
+
+        
+    
+    
+            var marker_6a69b7f759684f038f3857fe02e3e9c2 = L.marker(
+                [42.605899799999996, -117.5810013],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_dbe6b10c0b1f4a15b5f06b66002678ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6a69b7f759684f038f3857fe02e3e9c2.setIcon(icon_dbe6b10c0b1f4a15b5f06b66002678ea);
+        
+    
+        var popup_7a68f60f479a4735b7bdcc006c829164 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5369e4f10955423685148c39ac584943 = $(`<div id="html_5369e4f10955423685148c39ac584943" style="width: 100.0%; height: 100.0%;">Jackies Butte</div>`)[0];
+            popup_7a68f60f479a4735b7bdcc006c829164.setContent(html_5369e4f10955423685148c39ac584943);
+        
+
+        marker_6a69b7f759684f038f3857fe02e3e9c2.bindPopup(popup_7a68f60f479a4735b7bdcc006c829164)
+        ;
+
+        
+    
+    
+            var marker_016a768ce4a24e7f91b4704095ef480f = L.marker(
+                [41.579898799999995, -121.5709991],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_016c2979e9dc49d0870af7d7e3e29645 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_016a768ce4a24e7f91b4704095ef480f.setIcon(icon_016c2979e9dc49d0870af7d7e3e29645);
+        
+    
+        var popup_16843ab966df4ac29a89a410c517f957 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c439ee4a9304cfa84ccc7a4e1d51f5e = $(`<div id="html_0c439ee4a9304cfa84ccc7a4e1d51f5e" style="width: 100.0%; height: 100.0%;">Medicine Lake</div>`)[0];
+            popup_16843ab966df4ac29a89a410c517f957.setContent(html_0c439ee4a9304cfa84ccc7a4e1d51f5e);
+        
+
+        marker_016a768ce4a24e7f91b4704095ef480f.bindPopup(popup_16843ab966df4ac29a89a410c517f957)
+        ;
+
+        
+    
+    
+            var marker_ea0076f58b604047af8d2ae0582fb20d = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_df6aaac7e8c640f6b9f0e3768dcde0fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ea0076f58b604047af8d2ae0582fb20d.setIcon(icon_df6aaac7e8c640f6b9f0e3768dcde0fa);
+        
+    
+        var popup_360804b889ed40ceb9750c77f00b16a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b0e9e3f804f4d148dd1d30198f8fb15 = $(`<div id="html_4b0e9e3f804f4d148dd1d30198f8fb15" style="width: 100.0%; height: 100.0%;">Wapi Lava Field</div>`)[0];
+            popup_360804b889ed40ceb9750c77f00b16a0.setContent(html_4b0e9e3f804f4d148dd1d30198f8fb15);
+        
+
+        marker_ea0076f58b604047af8d2ae0582fb20d.bindPopup(popup_360804b889ed40ceb9750c77f00b16a0)
+        ;
+
+        
+    
+    
+            var marker_49fcda7d584d4877ab77514654532479 = L.marker(
+                [41.419899, -122.20099640000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_178ec270b6644546888afebbea02ed24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49fcda7d584d4877ab77514654532479.setIcon(icon_178ec270b6644546888afebbea02ed24);
+        
+    
+        var popup_3c1db1f804d440e4a6feec177b916e8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_123684862bb74359b7bdebf62efa9d63 = $(`<div id="html_123684862bb74359b7bdebf62efa9d63" style="width: 100.0%; height: 100.0%;">Shasta</div>`)[0];
+            popup_3c1db1f804d440e4a6feec177b916e8a.setContent(html_123684862bb74359b7bdebf62efa9d63);
+        
+
+        marker_49fcda7d584d4877ab77514654532479.bindPopup(popup_3c1db1f804d440e4a6feec177b916e8a)
+        ;
+
+        
+    
+    
+            var marker_816025b716cb43ca904564a80754a58e = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_97ffcc318dfa46e786f14007569bbbba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_816025b716cb43ca904564a80754a58e.setIcon(icon_97ffcc318dfa46e786f14007569bbbba);
+        
+    
+        var popup_9fef200d7a424da6a710f97222ed4b65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77bfdc4e6b0641aabd10128f95da6547 = $(`<div id="html_77bfdc4e6b0641aabd10128f95da6547" style="width: 100.0%; height: 100.0%;">Brushy Butte</div>`)[0];
+            popup_9fef200d7a424da6a710f97222ed4b65.setContent(html_77bfdc4e6b0641aabd10128f95da6547);
+        
+
+        marker_816025b716cb43ca904564a80754a58e.bindPopup(popup_9fef200d7a424da6a710f97222ed4b65)
+        ;
+
+        
+    
+    
+            var marker_ccabcc40f0e54c80bb86501fd30b2f41 = L.marker(
+                [40.954898799999995, -121.3610001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_d7322112905f4b538087589ea0d424bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ccabcc40f0e54c80bb86501fd30b2f41.setIcon(icon_d7322112905f4b538087589ea0d424bf);
+        
+    
+        var popup_a363454fe09b40ff9aecfc0e9a67f71a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_102280ca70374f7ca12436fc82400a7a = $(`<div id="html_102280ca70374f7ca12436fc82400a7a" style="width: 100.0%; height: 100.0%;">Big Cave</div>`)[0];
+            popup_a363454fe09b40ff9aecfc0e9a67f71a.setContent(html_102280ca70374f7ca12436fc82400a7a);
+        
+
+        marker_ccabcc40f0e54c80bb86501fd30b2f41.bindPopup(popup_a363454fe09b40ff9aecfc0e9a67f71a)
+        ;
+
+        
+    
+    
+            var marker_e57d870f36f344a7829681d109c81159 = L.marker(
+                [40.77989960000001, -121.60099790000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_7c7f0dd59df147759e0c00ec0a18eab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e57d870f36f344a7829681d109c81159.setIcon(icon_7c7f0dd59df147759e0c00ec0a18eab2);
+        
+    
+        var popup_5c34c3c9f8344d34aab82ffcb04b93d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35cd0c21e83c4c35af15565207d2f2e3 = $(`<div id="html_35cd0c21e83c4c35af15565207d2f2e3" style="width: 100.0%; height: 100.0%;">Twin Buttes</div>`)[0];
+            popup_5c34c3c9f8344d34aab82ffcb04b93d6.setContent(html_35cd0c21e83c4c35af15565207d2f2e3);
+        
+
+        marker_e57d870f36f344a7829681d109c81159.bindPopup(popup_5c34c3c9f8344d34aab82ffcb04b93d6)
+        ;
+
+        
+    
+    
+            var marker_766dbebd251c460787a810e09853ffa6 = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_f457c19a99b345f5a1075a8ec3fbddb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_766dbebd251c460787a810e09853ffa6.setIcon(icon_f457c19a99b345f5a1075a8ec3fbddb0);
+        
+    
+        var popup_4baf7c2f4b0b4c6591dd3a725f028eed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c47967eb18c3472ebaccc64e3b6e6217 = $(`<div id="html_c47967eb18c3472ebaccc64e3b6e6217" style="width: 100.0%; height: 100.0%;">Tumble Buttes</div>`)[0];
+            popup_4baf7c2f4b0b4c6591dd3a725f028eed.setContent(html_c47967eb18c3472ebaccc64e3b6e6217);
+        
+
+        marker_766dbebd251c460787a810e09853ffa6.bindPopup(popup_4baf7c2f4b0b4c6591dd3a725f028eed)
+        ;
+
+        
+    
+    
+            var marker_fa60e3f92f5748039445ba63b008bcea = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_adddcb9a8d564913b2002b2b7af1d559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fa60e3f92f5748039445ba63b008bcea.setIcon(icon_adddcb9a8d564913b2002b2b7af1d559);
+        
+    
+        var popup_9e89236359c94a229d14f92ce704b91d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddaecd3fc2df40af9c01c1f77fefdb96 = $(`<div id="html_ddaecd3fc2df40af9c01c1f77fefdb96" style="width: 100.0%; height: 100.0%;">Eagle Lake Field</div>`)[0];
+            popup_9e89236359c94a229d14f92ce704b91d.setContent(html_ddaecd3fc2df40af9c01c1f77fefdb96);
+        
+
+        marker_fa60e3f92f5748039445ba63b008bcea.bindPopup(popup_9e89236359c94a229d14f92ce704b91d)
+        ;
+
+        
+    
+    
+            var marker_defa65ec5ad740ca93c2d829816c364f = L.marker(
+                [40.491901399999996, -121.5009995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_a1b66aa2ad76402e967d611546216aa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_defa65ec5ad740ca93c2d829816c364f.setIcon(icon_a1b66aa2ad76402e967d611546216aa2);
+        
+    
+        var popup_895d58944d84425f96690a5c93832e57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aa61687a8e549f9b6418e1b82fabec0 = $(`<div id="html_2aa61687a8e549f9b6418e1b82fabec0" style="width: 100.0%; height: 100.0%;">Lassen Volc Center</div>`)[0];
+            popup_895d58944d84425f96690a5c93832e57.setContent(html_2aa61687a8e549f9b6418e1b82fabec0);
+        
+
+        marker_defa65ec5ad740ca93c2d829816c364f.bindPopup(popup_895d58944d84425f96690a5c93832e57)
+        ;
+
+        
+    
+    
+            var marker_b95db3f12f464b28b95f353737a93442 = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_c71f97c3cb414ba8a03448de5bac7eb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b95db3f12f464b28b95f353737a93442.setIcon(icon_c71f97c3cb414ba8a03448de5bac7eb1);
+        
+    
+        var popup_30a412aca10642d09218fc0c8d390536 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2026988ccc3c41d1ba3b5f44f0cb3f57 = $(`<div id="html_2026988ccc3c41d1ba3b5f44f0cb3f57" style="width: 100.0%; height: 100.0%;">Clear Lake</div>`)[0];
+            popup_30a412aca10642d09218fc0c8d390536.setContent(html_2026988ccc3c41d1ba3b5f44f0cb3f57);
+        
+
+        marker_b95db3f12f464b28b95f353737a93442.bindPopup(popup_30a412aca10642d09218fc0c8d390536)
+        ;
+
+        
+    
+    
+            var marker_bb864fdff9bd4deebc9b8f417734d39c = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_aeaed3f2bd85400daac524ff613c9f97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bb864fdff9bd4deebc9b8f417734d39c.setIcon(icon_aeaed3f2bd85400daac524ff613c9f97);
+        
+    
+        var popup_f0ac75dda29f422a95aae42aecd7e243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cc45a9e30ae40b68647d1ad0eda05f8 = $(`<div id="html_0cc45a9e30ae40b68647d1ad0eda05f8" style="width: 100.0%; height: 100.0%;">Steamboat Springs</div>`)[0];
+            popup_f0ac75dda29f422a95aae42aecd7e243.setContent(html_0cc45a9e30ae40b68647d1ad0eda05f8);
+        
+
+        marker_bb864fdff9bd4deebc9b8f417734d39c.bindPopup(popup_f0ac75dda29f422a95aae42aecd7e243)
+        ;
+
+        
+    
+    
+            var marker_5d3fab546eba4220a59a28a96883033a = L.marker(
+                [39.6500015, -107.03099820000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_1787d89ac0464436bafe9d1d1599e142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d3fab546eba4220a59a28a96883033a.setIcon(icon_1787d89ac0464436bafe9d1d1599e142);
+        
+    
+        var popup_020bb69e54b34f98803efa014ae6b1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c40714ccd3f746f99fd7102f39f705dd = $(`<div id="html_c40714ccd3f746f99fd7102f39f705dd" style="width: 100.0%; height: 100.0%;">Dotsero</div>`)[0];
+            popup_020bb69e54b34f98803efa014ae6b1e6.setContent(html_c40714ccd3f746f99fd7102f39f705dd);
+        
+
+        marker_5d3fab546eba4220a59a28a96883033a.bindPopup(popup_020bb69e54b34f98803efa014ae6b1e6)
+        ;
+
+        
+    
+    
+            var marker_22059c0a31d8490cada1c9e66fada4d7 = L.marker(
+                [37.9999008, -119.03099820000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_11f2187228f64d4497746d0c6a8cd13a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22059c0a31d8490cada1c9e66fada4d7.setIcon(icon_11f2187228f64d4497746d0c6a8cd13a);
+        
+    
+        var popup_150c152d8f694538ac0fa0dcbcd70a07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b95ce2e717643ed9a62a3556bfd06c7 = $(`<div id="html_6b95ce2e717643ed9a62a3556bfd06c7" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field</div>`)[0];
+            popup_150c152d8f694538ac0fa0dcbcd70a07.setContent(html_6b95ce2e717643ed9a62a3556bfd06c7);
+        
+
+        marker_22059c0a31d8490cada1c9e66fada4d7.bindPopup(popup_150c152d8f694538ac0fa0dcbcd70a07)
+        ;
+
+        
+    
+    
+            var marker_de215a49428741159fb30d8012f661d6 = L.marker(
+                [38.970001200000006, -112.5009995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_c0c6cf5fba1c4e5681a33e5629650856 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_de215a49428741159fb30d8012f661d6.setIcon(icon_c0c6cf5fba1c4e5681a33e5629650856);
+        
+    
+        var popup_e72e468247974953aa451b2681ec61e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aff1a7739b74ab9aecd621ba7059cd2 = $(`<div id="html_4aff1a7739b74ab9aecd621ba7059cd2" style="width: 100.0%; height: 100.0%;">Black Rock Desert</div>`)[0];
+            popup_e72e468247974953aa451b2681ec61e8.setContent(html_4aff1a7739b74ab9aecd621ba7059cd2);
+        
+
+        marker_de215a49428741159fb30d8012f661d6.bindPopup(popup_e72e468247974953aa451b2681ec61e8)
+        ;
+
+        
+    
+    
+            var marker_b6a646cb05fa4deda67f9a0930adc531 = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_79718135ad1a4d4b927c8741ff0025c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6a646cb05fa4deda67f9a0930adc531.setIcon(icon_79718135ad1a4d4b927c8741ff0025c2);
+        
+    
+        var popup_52edbd0d8d2749388f425f538b4fc407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53687bfdfeab4dbf9fe8798b13fd328f = $(`<div id="html_53687bfdfeab4dbf9fe8798b13fd328f" style="width: 100.0%; height: 100.0%;">Mono Craters</div>`)[0];
+            popup_52edbd0d8d2749388f425f538b4fc407.setContent(html_53687bfdfeab4dbf9fe8798b13fd328f);
+        
+
+        marker_b6a646cb05fa4deda67f9a0930adc531.bindPopup(popup_52edbd0d8d2749388f425f538b4fc407)
+        ;
+
+        
+    
+    
+            var marker_0ad14fe6154f448cae44677d681f0e9d = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_8e75fab11d0f4be3b984b6a4c39ea982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ad14fe6154f448cae44677d681f0e9d.setIcon(icon_8e75fab11d0f4be3b984b6a4c39ea982);
+        
+    
+        var popup_d986672a44c846319ba565ea8bf6a18a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fb412f5fa4e4586b7f31bf1b7a9b501 = $(`<div id="html_1fb412f5fa4e4586b7f31bf1b7a9b501" style="width: 100.0%; height: 100.0%;">Inyo Craters</div>`)[0];
+            popup_d986672a44c846319ba565ea8bf6a18a.setContent(html_1fb412f5fa4e4586b7f31bf1b7a9b501);
+        
+
+        marker_0ad14fe6154f448cae44677d681f0e9d.bindPopup(popup_d986672a44c846319ba565ea8bf6a18a)
+        ;
+
+        
+    
+    
+            var marker_195e8ccc19a44b3cb5a81913c64a8bae = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_eefd46eb312d421db382ca2c23ea8c39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_195e8ccc19a44b3cb5a81913c64a8bae.setIcon(icon_eefd46eb312d421db382ca2c23ea8c39);
+        
+    
+        var popup_4b925e3dbef2409f9539f8687de954a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b7a3129812c4fafb4a21aec80bd6ecc = $(`<div id="html_2b7a3129812c4fafb4a21aec80bd6ecc" style="width: 100.0%; height: 100.0%;">Long Valley</div>`)[0];
+            popup_4b925e3dbef2409f9539f8687de954a0.setContent(html_2b7a3129812c4fafb4a21aec80bd6ecc);
+        
+
+        marker_195e8ccc19a44b3cb5a81913c64a8bae.bindPopup(popup_4b925e3dbef2409f9539f8687de954a0)
+        ;
+
+        
+    
+    
+            var marker_9c0dd0bd68014acf878f639efc59d260 = L.marker(
+                [37.579898799999995, -119.0510025],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_4ba24a05b5f54aaea829e04473ff1e19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c0dd0bd68014acf878f639efc59d260.setIcon(icon_4ba24a05b5f54aaea829e04473ff1e19);
+        
+    
+        var popup_2a6684d6b1a4462da30945fd2f0a4808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_197c30238a1d4c76911355f54e14edba = $(`<div id="html_197c30238a1d4c76911355f54e14edba" style="width: 100.0%; height: 100.0%;">Red Cones</div>`)[0];
+            popup_2a6684d6b1a4462da30945fd2f0a4808.setContent(html_197c30238a1d4c76911355f54e14edba);
+        
+
+        marker_9c0dd0bd68014acf878f639efc59d260.bindPopup(popup_2a6684d6b1a4462da30945fd2f0a4808)
+        ;
+
+        
+    
+    
+            var marker_c484ad48907d451da2fc76c9fd27e3e1 = L.marker(
+                [37.0199013, -117.45099640000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_95e3aead9d7b4b31b6a3afefe091e801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c484ad48907d451da2fc76c9fd27e3e1.setIcon(icon_95e3aead9d7b4b31b6a3afefe091e801);
+        
+    
+        var popup_72ab62d9efb446f6adf5a45e1366dc98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_583996f782d14eadacf20ceb4e58b3d4 = $(`<div id="html_583996f782d14eadacf20ceb4e58b3d4" style="width: 100.0%; height: 100.0%;">Ubehebe Craters</div>`)[0];
+            popup_72ab62d9efb446f6adf5a45e1366dc98.setContent(html_583996f782d14eadacf20ceb4e58b3d4);
+        
+
+        marker_c484ad48907d451da2fc76c9fd27e3e1.bindPopup(popup_72ab62d9efb446f6adf5a45e1366dc98)
+        ;
+
+        
+    
+    
+            var marker_1d4205198268417d9e9b79896f6fe8a1 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_69aad97f047e43118a7cc9ad63dd6cf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d4205198268417d9e9b79896f6fe8a1.setIcon(icon_69aad97f047e43118a7cc9ad63dd6cf7);
+        
+    
+        var popup_401f17dd8dc74af89d9b8092793cf8db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_279c300f13ee4176845c0a69254fc0d8 = $(`<div id="html_279c300f13ee4176845c0a69254fc0d8" style="width: 100.0%; height: 100.0%;">Markagunt Plateau</div>`)[0];
+            popup_401f17dd8dc74af89d9b8092793cf8db.setContent(html_279c300f13ee4176845c0a69254fc0d8);
+        
+
+        marker_1d4205198268417d9e9b79896f6fe8a1.bindPopup(popup_401f17dd8dc74af89d9b8092793cf8db)
+        ;
+
+        
+    
+    
+            var marker_1a1faf4a4e4449c4a5b0581810356619 = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_2cd728968a824240a69320f5c9c7e76d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1a1faf4a4e4449c4a5b0581810356619.setIcon(icon_2cd728968a824240a69320f5c9c7e76d);
+        
+    
+        var popup_0f77606be4b64a6bbc8b5f96febc8cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df7cd8fe6977414e869abbc3951ca93d = $(`<div id="html_df7cd8fe6977414e869abbc3951ca93d" style="width: 100.0%; height: 100.0%;">Santa Clara</div>`)[0];
+            popup_0f77606be4b64a6bbc8b5f96febc8cd8.setContent(html_df7cd8fe6977414e869abbc3951ca93d);
+        
+
+        marker_1a1faf4a4e4449c4a5b0581810356619.bindPopup(popup_0f77606be4b64a6bbc8b5f96febc8cd8)
+        ;
+
+        
+    
+    
+            var marker_9873442decb2427c99247868eb9ed18c = L.marker(
+                [37.32799910000001, -112.40100100000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_c3d83ad00e7b4509b14f1cc9d80acc48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9873442decb2427c99247868eb9ed18c.setIcon(icon_c3d83ad00e7b4509b14f1cc9d80acc48);
+        
+    
+        var popup_9b26e0e999e448bb8ba173061fc108ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d732148e3144d7faf2ccfe8d3956fa2 = $(`<div id="html_0d732148e3144d7faf2ccfe8d3956fa2" style="width: 100.0%; height: 100.0%;">Bald Knoll</div>`)[0];
+            popup_9b26e0e999e448bb8ba173061fc108ce.setContent(html_0d732148e3144d7faf2ccfe8d3956fa2);
+        
+
+        marker_9873442decb2427c99247868eb9ed18c.bindPopup(popup_9b26e0e999e448bb8ba173061fc108ce)
+        ;
+
+        
+    
+    
+            var marker_1321f51424c343c6a491de842a40dbe8 = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_36011c12128c4956baa90b88760cd9c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1321f51424c343c6a491de842a40dbe8.setIcon(icon_36011c12128c4956baa90b88760cd9c6);
+        
+    
+        var popup_e5b79a629d384823aa54729628797d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faf098ef6cf344aba067a1812495f055 = $(`<div id="html_faf098ef6cf344aba067a1812495f055" style="width: 100.0%; height: 100.0%;">Golden Trout Creek</div>`)[0];
+            popup_e5b79a629d384823aa54729628797d5f.setContent(html_faf098ef6cf344aba067a1812495f055);
+        
+
+        marker_1321f51424c343c6a491de842a40dbe8.bindPopup(popup_e5b79a629d384823aa54729628797d5f)
+        ;
+
+        
+    
+    
+            var marker_a2795262283c42269bebde7b99a5bb24 = L.marker(
+                [36.02989960000001, -117.8209991],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_769359febdaa4ab18b0155229dfde686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2795262283c42269bebde7b99a5bb24.setIcon(icon_769359febdaa4ab18b0155229dfde686);
+        
+    
+        var popup_378afeac45c84e17aa1e58eb4046d2f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d365a349d23c4991a7be2098ee79e347 = $(`<div id="html_d365a349d23c4991a7be2098ee79e347" style="width: 100.0%; height: 100.0%;">Coso Volc Field</div>`)[0];
+            popup_378afeac45c84e17aa1e58eb4046d2f3.setContent(html_d365a349d23c4991a7be2098ee79e347);
+        
+
+        marker_a2795262283c42269bebde7b99a5bb24.bindPopup(popup_378afeac45c84e17aa1e58eb4046d2f3)
+        ;
+
+        
+    
+    
+            var marker_355dc617b177406e90bfd07a3bb332d6 = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_b36220633a8b47ef85516ed345519402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_355dc617b177406e90bfd07a3bb332d6.setIcon(icon_b36220633a8b47ef85516ed345519402);
+        
+    
+        var popup_d2ca7b5a837d433cb63913f60899ea4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95c5135275c74cb0b2e0f66681f6fc26 = $(`<div id="html_95c5135275c74cb0b2e0f66681f6fc26" style="width: 100.0%; height: 100.0%;">Uinkaret Field</div>`)[0];
+            popup_d2ca7b5a837d433cb63913f60899ea4d.setContent(html_95c5135275c74cb0b2e0f66681f6fc26);
+        
+
+        marker_355dc617b177406e90bfd07a3bb332d6.bindPopup(popup_d2ca7b5a837d433cb63913f60899ea4d)
+        ;
+
+        
+    
+    
+            var marker_240b3b18add44a49a2c5dd3bc71f9b63 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_e7141c8e816f4d38b75120075d3046d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_240b3b18add44a49a2c5dd3bc71f9b63.setIcon(icon_e7141c8e816f4d38b75120075d3046d9);
+        
+    
+        var popup_a22d71dc8e934631891efffa3e01487e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac4ee25e036b4d9e8ff9fb3a07cb77e0 = $(`<div id="html_ac4ee25e036b4d9e8ff9fb3a07cb77e0" style="width: 100.0%; height: 100.0%;">Lavic Lake</div>`)[0];
+            popup_a22d71dc8e934631891efffa3e01487e.setContent(html_ac4ee25e036b4d9e8ff9fb3a07cb77e0);
+        
+
+        marker_240b3b18add44a49a2c5dd3bc71f9b63.bindPopup(popup_a22d71dc8e934631891efffa3e01487e)
+        ;
+
+        
+    
+    
+            var marker_c81980ec15be43c1b93294f6cfb4b7c4 = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_d62de3ed2e034b5888ab3426f5f6b19c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c81980ec15be43c1b93294f6cfb4b7c4.setIcon(icon_d62de3ed2e034b5888ab3426f5f6b19c);
+        
+    
+        var popup_3e3568c8c27a4a7a9e507d73bdb450c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fc9653a607544ac855c15b8eb166e0c = $(`<div id="html_7fc9653a607544ac855c15b8eb166e0c" style="width: 100.0%; height: 100.0%;">Valles Caldera</div>`)[0];
+            popup_3e3568c8c27a4a7a9e507d73bdb450c3.setContent(html_7fc9653a607544ac855c15b8eb166e0c);
+        
+
+        marker_c81980ec15be43c1b93294f6cfb4b7c4.bindPopup(popup_3e3568c8c27a4a7a9e507d73bdb450c3)
+        ;
+
+        
+    
+    
+            var marker_8a2beeea2992451bbb748838bc98590e = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_cfab108730414d4faf31b3e1100bbf8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a2beeea2992451bbb748838bc98590e.setIcon(icon_cfab108730414d4faf31b3e1100bbf8c);
+        
+    
+        var popup_cf493cdfc0934588aec2ddc2071f33e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7125181eccc4eeab6e407964becce6f = $(`<div id="html_c7125181eccc4eeab6e407964becce6f" style="width: 100.0%; height: 100.0%;">Sunset Crater</div>`)[0];
+            popup_cf493cdfc0934588aec2ddc2071f33e4.setContent(html_c7125181eccc4eeab6e407964becce6f);
+        
+
+        marker_8a2beeea2992451bbb748838bc98590e.bindPopup(popup_cf493cdfc0934588aec2ddc2071f33e4)
+        ;
+
+        
+    
+    
+            var marker_475ebe3439b3468dbcd121392562fbf5 = L.marker(
+                [34.5499992, -115.78099820000001],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_be006275cacc44ec8e015bb29f28e3d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_475ebe3439b3468dbcd121392562fbf5.setIcon(icon_be006275cacc44ec8e015bb29f28e3d4);
+        
+    
+        var popup_4720c467bdc744f1ac72a24777091a87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a5391adaf3f42fd82b5837ad86dddf8 = $(`<div id="html_9a5391adaf3f42fd82b5837ad86dddf8" style="width: 100.0%; height: 100.0%;">Amboy</div>`)[0];
+            popup_4720c467bdc744f1ac72a24777091a87.setContent(html_9a5391adaf3f42fd82b5837ad86dddf8);
+        
+
+        marker_475ebe3439b3468dbcd121392562fbf5.bindPopup(popup_4720c467bdc744f1ac72a24777091a87)
+        ;
+
+        
+    
+    
+            var marker_720a6282b92349bc9be5c7443fc06564 = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_66e7f14885744570b56db1918d19bbb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_720a6282b92349bc9be5c7443fc06564.setIcon(icon_66e7f14885744570b56db1918d19bbb7);
+        
+    
+        var popup_2701bb081c6243e6b3f63e1dc19c5767 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d13a97ac842f4eeaa953af7de62750af = $(`<div id="html_d13a97ac842f4eeaa953af7de62750af" style="width: 100.0%; height: 100.0%;">Zuni-Bandera</div>`)[0];
+            popup_2701bb081c6243e6b3f63e1dc19c5767.setContent(html_d13a97ac842f4eeaa953af7de62750af);
+        
+
+        marker_720a6282b92349bc9be5c7443fc06564.bindPopup(popup_2701bb081c6243e6b3f63e1dc19c5767)
+        ;
+
+        
+    
+    
+            var marker_ecff3d19d16e4b8397897ad7d70a11da = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(map_52bc61e7693c4e999f1732ff646ddbc6);
+        
+    
+            var icon_93c9e2d425624f4d998d6b61ec6b7edd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ecff3d19d16e4b8397897ad7d70a11da.setIcon(icon_93c9e2d425624f4d998d6b61ec6b7edd);
+        
+    
+        var popup_576c3283ecdd4f65993c310328975780 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24b06dedc67d49e8a1f0aab5e0d53aac = $(`<div id="html_24b06dedc67d49e8a1f0aab5e0d53aac" style="width: 100.0%; height: 100.0%;">Carrizozo</div>`)[0];
+            popup_576c3283ecdd4f65993c310328975780.setContent(html_24b06dedc67d49e8a1f0aab5e0d53aac);
+        
+
+        marker_ecff3d19d16e4b8397897ad7d70a11da.bindPopup(popup_576c3283ecdd4f65993c310328975780)
+        ;
+
+        
+    
+</script>
