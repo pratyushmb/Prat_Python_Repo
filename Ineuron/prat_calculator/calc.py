@@ -53,7 +53,7 @@ def math_operation_via_postman():
 
         if operation == 'subtract':
             r = num1 - num2
-            result_val = "the difference of " + str(num1) + ' and ' + str(num2) + ' is ' + str(r)
+            result_val = "the difference of " + str(num1) + ' and ' + str(num2) + ' is :' + str(r)
 
         if operation == 'multiply':
             r = num1 * num2
